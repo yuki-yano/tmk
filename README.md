@@ -19,12 +19,6 @@ bindkey '^[k' tmk
 
 ## Installastion
 
-#### zplug users
-
-```zsh:.zshrc
-zplug "yuki-ycino/tmk", as:command
-```
-
 #### antigen users
 
 ```
