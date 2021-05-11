@@ -31,10 +31,5 @@ antigen bundle yuki-ycino/tmk
 zgen load yuki-ycino/tmk
 ```
 
-## Requirements
-Either of these is necessary.
-
-+ `fzf-tmux`
-
 ## Original
 Qiita:(Witten in Japanese) 👉 https://qiita.com/arks22/items/cb109867c7aa094354e5

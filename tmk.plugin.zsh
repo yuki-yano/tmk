@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 function _tmk-kill-session() {
-  answer=$(_tmk-kill-session-list | fzf-tmux --multi --ansi --prompt="tmk >" )
+  answer=$(_tmk-kill-session-list | fzf --multi --ansi --prompt="tmk >" )
 
   case $answer in
     *kill*Server* ) tmux kill-server ;;
